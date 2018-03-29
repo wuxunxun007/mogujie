@@ -24,7 +24,7 @@ const MyButton = function(props) {
             return (
               <li key = { index }>
                 { item } --- {index}
-                <button onClick = { props.delClick.bind(this, index) }>删除此item</button>
+                <button onClick = { props.delClick.bind(this, index) }>删除此item--</button>
               </li>
             )
           })
